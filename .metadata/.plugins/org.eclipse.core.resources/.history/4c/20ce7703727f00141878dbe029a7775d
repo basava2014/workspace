@@ -1,0 +1,23 @@
+package SeleniumPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class seleniumClass {
+	public static void main (Srting[] args){
+		// declaration
+		WebDriver driver = new FirefoxDriver();
+		String baseUrl = "http://facebook.com";
+		//String expectedTitle = ""
+		
+		// launch FF
+		driver.get(baseUrl);
+		
+		// get title
+		String title = driver.getTitle();
+		
+		System.out.println("page title is ==>" +title);
+	}
+
+}
