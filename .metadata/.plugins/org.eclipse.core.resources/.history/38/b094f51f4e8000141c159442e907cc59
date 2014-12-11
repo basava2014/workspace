@@ -1,0 +1,21 @@
+package testngpackage;
+
+import org.testng.annotations.Test;
+
+public class TestNGFile {
+  
+	@Test
+  public void VerifyFBPage() {
+		System.out.println("test passed");
+  }
+	@BeforeTest
+	public void BeforeTest() {
+		
+	}
+		
+	@AfterTest
+	public void AfterTest() {
+		
+	}
+	
+}

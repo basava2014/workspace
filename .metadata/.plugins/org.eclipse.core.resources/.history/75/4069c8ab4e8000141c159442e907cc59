@@ -1,0 +1,26 @@
+package testngpackage;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class TestNGFile {
+	public String baseUrl = "http://facebook.com";
+	public WebDriver driver;
+  
+	@Test
+  public void VerifyFBPage() {
+		System.out.println("test passed");
+  }
+	@BeforeTest
+	public void BeforeTest() {
+	driver = new FirefoxDriver();
+	driver.get(baseUrl);
+	}
+		
+	@AfterTest
+	public void AfterTest() {
+	driver.quit();	
+	}
+	
+}

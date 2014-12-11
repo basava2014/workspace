@@ -85,3 +85,4 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2014-12-09 12:35:52,354 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
 2014-12-09 14:21:55,867 [ModalContext] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server marketplace.eclipse.org failed to respond
 2014-12-09 14:21:55,888 [ModalContext] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2014-12-10 14:44:53,026 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
